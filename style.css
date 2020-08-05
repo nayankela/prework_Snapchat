@@ -72,6 +72,14 @@ h1 {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
+    position: relative;
+    right: 50px;
+
+}
+
+#img1 {
+    position: relative;
+    left: 50px;
 }
 
 .decorated-text ul {
@@ -81,7 +89,7 @@ h1 {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    
+
 }
 
 .decorated-text ul li {
@@ -89,8 +97,8 @@ h1 {
 }
 
 .header-text-iago-daniel {
-    
-    color:dodgerblue;
+
+    color: dodgerblue;
     font-size: 30px;
     font-weight: bolder;
     font-style: italic;
@@ -114,15 +122,39 @@ h1 {
     font-size: 16px;
     padding: 6px;
     letter-spacing: 0.3em;
+    position: relative;
+    right: 110px;
 
 }
 
 #header-text-jie {
     font-family: 'Cookie', cursive;
-    font-size: 50px;
+    font-size: 52px;
     color: #ffaf4d;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 0.8px;
     -webkit-text-stroke-color: black;
+    position: relative;
+    right: 70px;
+}
+
+#text1 {
+    position: relative;
+    left: 10px;
+}
+
+#text2 {
+    position: relative;
+    right: 50px;
+}
+
+#text4 {
+    position: relative;
+    left: 50px;
+}
+
+#text5 {
+    position: relative;
+    right: 10px;
 }
 
 #rainbow-text {
@@ -135,16 +167,26 @@ h1 {
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
     letter-spacing: 0;
+    position: relative;
+    left: 50px;
+}
+
+#text8 {
+    position: relative;
+    right: 10px;
 }
 
 #header-text-rebecca {
     font-family: 'Timmana', sans-serif;
     color: darkorange;
-    font-size: 40px;
+    font-size: 43px;
     font-weight: bolder;
     letter-spacing: 0;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
+    position: relative;
+    right: 70px;
+    top: 11px;
 }
 
 #country ul {
@@ -156,6 +198,8 @@ h1 {
 #country ul li {
     font-size: 14px;
     letter-spacing: 0.01em;
+    position: relative;
+    right: 45px;
 }
 
 .link-button {
@@ -183,7 +227,6 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 }
 
 .footer {
